@@ -19,9 +19,9 @@ def main():
     print("--- Begin report of books/frankenstein.txt ---")
     print(f"{word_count} words found in the document")
     for item in list_of_dict:
-        print(f"The {item['letter']} character was found {item['num']} times")
+        print(f"The '{item['letter']}' character was found {item['num']} times")
     print("--- End report ---")
-    
+
 def count_characters(file_string):
     import string
     new_string = file_string.lower()
